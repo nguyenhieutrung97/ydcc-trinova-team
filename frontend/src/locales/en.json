@@ -154,7 +154,7 @@
   "login": {
     "title": "Login",
     "phone": "Phone Number",
-    "password": "***",
+    "password": "Password",
     "phonePlaceholder": "0900000001",
     "passwordPlaceholder": "••••••••",
     "loginButton": "Login",
