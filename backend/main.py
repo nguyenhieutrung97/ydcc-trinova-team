@@ -33,9 +33,10 @@ allowed_origins = [origin.strip() for origin in cors_origins_env.split(",") if o
 # Sensible defaults for local dev + current production frontend.
 if not allowed_origins:
     allowed_origins = [
-        "https://icoopmk.trinova.it.com",
+        "https://trinova.it.com",
         "http://localhost:3000",
         "http://localhost:5173",
+        "http://localhost:9090",
     ]
 
 # CORS middleware

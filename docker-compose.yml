@@ -22,7 +22,7 @@ services:
       - DATABASE_URL=postgresql://postgres:postgres123@postgres:5432/mekong_farm
       - SECRET_KEY=${SECRET_KEY:-dev-secret-key-change-me}
       - ENVIRONMENT=development
-      - CORS_ALLOW_ORIGINS=http://localhost:80,http://localhost,http://localhost:3000,http://localhost:5173,http://localhost:8080,http://localhost:8088,http://localhost:9090
+      - CORS_ALLOW_ORIGINS=https://trinova.it.com,http://localhost:80,http://localhost,http://localhost:3000,http://localhost:5173,http://localhost:8080,http://localhost:8088,http://localhost:9090
     volumes:
       - ./backend:/app/backend
       - ./dataset:/app/dataset
